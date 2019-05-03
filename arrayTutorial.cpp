@@ -3,8 +3,6 @@
 
 using namespace std;
 
-
-
 int main()
 {
    int A[7] = {4, 8, 6, 9, 5, 2, 7};
@@ -60,6 +58,45 @@ int main()
 
    }
    cout << "Key not found\n";
+
+   cout << "\n********************************\n";
+   cout << "         Binary Search            \n";
+   cout << "********************************\n";
+
+   int iArrayB[10] = { 6, 8, 13, 17, 20, 22, 25, 28, 30, 35 };
+
+   int low = 0;
+   int high = 9;
+
+   int mid;
+
+   while(low <= high){
+
+       mid = (low + high)/2;
+
+       if(key == iArrayB[mid]){
+           cout <<"key found at: "<<mid <<endl;
+           return 0;
+       }
+
+       else if( key < iArrayB[mid]){
+           high = mid - 1;
+       }
+       else{
+           low = mid + 1;
+       }
+   }
+   cout << " key not found " << endl;
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -88,18 +88,82 @@ int main()
    }
    cout << " key not found " << endl;
 
+  
+
+   cout << "\n********************************\n";
+   cout << "         Printing Pattersn        \n";
+   cout << "********************************\n";
+
+   for( int i = 0; i < 4; i++ ){
+       
+       for( int j = 0; j < 4; j++){
+           
+           if( i > j)
+               cout <<" ";
+           else
+               cout <<"*";
+       }
+       cout << endl;
+   }
 
 
+   for( int i = 0; i < 4; i++ ){
+       
+       for( int j = 0; j < 4; j++){
+           
+           if( i >= j)
+               cout <<"* ";
+       }
+       cout << endl;
+   }
+
+   cout <<"\n\n";
+
+   for( int i = 0; i < 4; i++ ){
+       
+       for( int j = 0; j < 4; j++){
+           
+           if( i <= j)
+               cout <<"* ";
+       }
+       cout << endl;
+   }
 
 
+    // In this case we can use n = 4 as the dimensions
+    // of the matriz or array. and the "for loop" check
+    // statement could be as 
+    //          if( i + j > n -1 )
+    
 
+   cout <<"\n\n";
 
+   for( int i = 0; i < 4; i++ ){
+       
+       for( int j = 0; j < 4; j++){
+           
+           if( i + j >= 3)
+               cout <<"*";
+           else
+               cout <<" ";
+       }
+       cout << endl;
+   }
 
+   cout <<"\n*********************************\n";
+   cout <<" 2D arrays  \n";
+   cout <<"**********************************\n";
 
+   int iArray2D[2][3] = { {2, 5, 9}, {6, 9, 15} };
 
+   for( int i = 0; i < 2; i++){
 
+       for( int j = 0; j < 3; j++){
 
-
+           cout << iArray2D[i][j] <<" ";
+       }
+       cout <<endl;
+   }
 
 }
 

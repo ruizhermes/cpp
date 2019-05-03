@@ -1,11 +1,11 @@
-all:	arrayTutorial
+all:	pointersTutorial
 
-arrayTutorial:	arrayTutorial.o
-	g++ -o arrayTutorial arrayTutorial.o
+pointersTutorial:	pointersTutorial.o
+	g++ -o pointersTutorial pointersTutorial.o
 
-arrayTutorial.o:	arrayTutorial.cpp
-	g++ -c -std=c++11 arrayTutorial.cpp
+pointersTutorial.o:	pointersTutorial.cpp
+	g++ -c -std=c++11 pointersTutorial.cpp
 
 clean:
-	rm arrayTutorial.o arrayTutorial
+	rm pointersTutorial.o pointersTutorial
 

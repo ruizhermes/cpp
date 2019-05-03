@@ -161,9 +161,10 @@ int main()
        for( int j = 0; j < 3; j++){
 
            cout << iArray2D[i][j] <<" ";
+
        }
        cout <<endl;
    }
 
-}
+}// end of main()
 

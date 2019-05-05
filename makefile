@@ -1,11 +1,11 @@
-all:	pointersTutorial
+all:	functionsTutorial
 
-pointersTutorial:	pointersTutorial.o
-	g++ -o pointersTutorial pointersTutorial.o
+functionsTutorial:	functionsTutorial.o
+	g++ -o functionsTutorial functionsTutorial.o
 
-pointersTutorial.o:	pointersTutorial.cpp
-	g++ -c -std=c++11 pointersTutorial.cpp
+functionsTutorial.o:	functionsTutorial.cpp
+	g++ -c -std=c++11 functionsTutorial.cpp
 
 clean:
-	rm pointersTutorial.o pointersTutorial
+	rm functionsTutorial.o functionsTutorial
 

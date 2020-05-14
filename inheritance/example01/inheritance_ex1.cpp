@@ -34,7 +34,7 @@ class Game : public Console{
 };
 
 // Specific video game (pokemon, street Fighter etc,,) class
-
+// Inherit from Game, which in turn inherits from Console (Parent Class)
 class StreetFighter : public Game{
     private:
         int id;

@@ -76,9 +76,34 @@ int main() {
             std::cout << "Other day" << std::endl;
             break;
     }
+    std::cout<<std::endl;
 
 
+    // Repetition Control: for loop
+    std::cout << "Repetition cotrol: for loop " << std::endl;
+    for (int i = 1; i <= 5; i++) {
+        std::cout << "Iteration " << i << std::endl;
+    }
+    std::cout<<std::endl;
 
+    // Repetition Control: while loop
+    std::cout << "Repetition cotrol: while loop " << std::endl;
+    int i = 1;
+    while (i <= 5) {
+        std::cout << "Iteration " << i << std::endl;
+        i++;
+    }
+    std::cout<<std::endl;
+
+
+    // Repetition Control: while loop
+    std::cout << "Repetition cotrol: do-while loop " << std::endl;
+    i = 1;
+    do {
+        std::cout << "Iteration " << i << std::endl;
+        i++;
+    } while (i <= 5);
+    std::cout<<std::endl;
 
     return 0;
 }

@@ -1,5 +1,8 @@
 #include <iostream>
-
+/* 
+    This program shows the characteristics of variables and 
+    data types. 
+*/
 int main() {
     // Integer types
     int a = 10;

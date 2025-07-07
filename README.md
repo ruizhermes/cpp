@@ -1,4 +1,4 @@
 ## Notes in C++ 
 
-- This repo has essential notes and code for C++
-- Fundamentals can be found in the [Wiki](https://github.com/ruizhermes/C_plus_plus/wiki) 
+- This repo contains C++ programs that are related to the learning process and the wiki. 
+- The [Wiki](https://github.com/ruizhermes/C_plus_plus/wiki) contains the C++ chapters covered. 

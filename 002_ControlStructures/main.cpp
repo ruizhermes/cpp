@@ -1,9 +1,21 @@
 #include <iostream>
+/*
+    Control Structure Examples:
+        1. Sequential
+        2. if statement
+        3. if-else statement
+        4. else-if ladder
+        5. switch statement
 
+    Repetition Control Structure (Loops):
+        6. for loop
+        7. while loop
+        8. do-while loop
+*/
 
 int main() {
 
-    // Sequencial Control Example
+
     std::cout << "Control: Sequential " << std::endl;
     std::cout << "Starting program..." << std::endl;
     int a = 5, b = 10;
@@ -45,5 +57,28 @@ int main() {
     }
 
     std::cout<<std::endl;
+
+    // Selection Control: switch statement
+
+    std::cout << "Control: switch statement " << std::endl;
+    int day = 3;
+    switch (day) {
+        case 1:
+            std::cout << "Monday" << std::endl;
+            break;
+        case 2:
+            std::cout << "Tuesday" << std::endl;
+            break;
+        case 3:
+            std::cout << "Wednesday" << std::endl;
+            break;
+        default:
+            std::cout << "Other day" << std::endl;
+            break;
+    }
+
+
+
+
     return 0;
 }
